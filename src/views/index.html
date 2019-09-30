@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%= title %></title>
+    <% include partials/head.html %>
+</head>
+<body>
+    <% include partials/navigation.html %>
+    <div class="container">
+        <header class="row">
+            <div class="col-lg-12 text-center"> <!--"col-lg-12 text-center" 12 todo el ancho posible y centrado -->
+                <img src="/img/pews-logo.png" class="animated bounceIn" alt="Logo de Raul"> 
+            </div>
+        </header>
+    </div>
+    <!--SECTION ONE-->
+    <div class="container-fluid" id="about"><!--Para el about de mi pag-->
+        <div class="row bg-dark text-white p5 text-center"> <!--ROW=Una fila para dividir el contenido, bg-dark=decolor oscuro, text.white=texto de color blanco, p-5= padding de 5 y text.center y texto centtrado-->
+            <div class="col-sm-6"> <!--Arriba es de 12 asi que devidir la col en 2 de 6 cada uno, osea en dos-->
+                <i class="fab fa-youtube fa-10x"></i><!--este es una clase de fontawesome, estoy usando iconos y agrandando en 10x-->
+            </div>
+            <div class="col-sm-6">
+                <h3>The most susribed Youtuber yo</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque nobis tempora ab consectetur sequi iure fugiat. Tempora distinctio aliquam, expedita repellendus qui eum a, ducimus quasi, aut natus voluptate laudantium.</p> <!--lorem30 enter-->
+            </div>
+        </div>  
+    </div>
+    <% include partials/footer.html %>
+</body>
+
+</html>
